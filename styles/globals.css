@@ -1,17 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-
 html,
 body {
-  background-color: #121212;
-  background-image: url("/bg_black_02.jpg");
-  background-size: cover;
-  background-repeat: repeat;
-  background-position: center;
-  font-family: "Montserrat", sans-serif;
-  font-weight: normal;
-}
-
-.main-layout {
+  padding: 0;
+  margin: 0;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    background-color: #434343;
+    background-image: linear-gradient(#434343, #282828);
 }
 
 a {
@@ -19,31 +13,35 @@ a {
   text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
+*,
+*:before,
+*:after {
+  margin: 0;
   padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  /* font-family: "Roboto", sans-serif; */
+}
+
+img {
+  /* max-width: 100%;
+  height: auto; */
+}
+
+/* h1, */
+h2,
+/* p, */
+ul {
   margin: 0;
 }
 
-p,
-li {
-  font-family: "Montserrat", sans-serif;
+ul {
+  padding: 0;
+  list-style: none;
 }
 
-.about-menus::-webkit-scrollbar {
-  display: none;
+button {
+  padding: 0.5rem 1rem;
+  font-weight: bold;
 }
 
-.about-menus {
-  -ms-overflow-style: none;
-  scrollbar-width: none;
-}
-
-@font-face {
-  font-family: "Orbitron";
-  src: url("/fonts/Orbitron.ttf");
-}
-
-.orbitrum-font {
-  font-family: "Orbitron", sans-serif;
-}
