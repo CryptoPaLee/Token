@@ -103,7 +103,6 @@ export default function Home() {
                           className={styles.i_button}
                           src="/info_green_48dp.svg"
                           alt=""
-                          srcset=""
                         />
                       </a>
                     </div>
@@ -141,7 +140,6 @@ export default function Home() {
                           className={styles.i_button}
                           src="/info_green_48dp.svg"
                           alt=""
-                          srcset=""
                         />
                       </a>
                     </div>
@@ -182,7 +180,6 @@ export default function Home() {
                           className={styles.i_button}
                           src="/info_green_48dp.svg"
                           alt=""
-                          srcset=""
                         />
                       </a>
                     </div>
@@ -221,7 +218,6 @@ export default function Home() {
                           className={styles.i_button}
                           src="/info_green_48dp.svg"
                           alt=""
-                          srcset=""
                         />
                       </a>
                     </div>
@@ -260,7 +256,6 @@ export default function Home() {
                           className={styles.i_button}
                           src="/info_green_48dp.svg"
                           alt=""
-                          srcset=""
                         />
                       </a>
                     </div>
@@ -299,7 +294,6 @@ export default function Home() {
                           className={styles.i_button}
                           src="/info_green_48dp.svg"
                           alt=""
-                          srcset=""
                         />
                       </a>
                     </div>
@@ -338,7 +332,6 @@ export default function Home() {
                           className={styles.i_button}
                           src="/info_green_48dp.svg"
                           alt=""
-                          srcset=""
                         />
                       </a>
                     </div>
